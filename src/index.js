@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Quotes from './Quotes';
+import TodoList from './TodoList';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Quotes />
+    <TodoList />
   </React.StrictMode>,
   document.getElementById('root')
 );
