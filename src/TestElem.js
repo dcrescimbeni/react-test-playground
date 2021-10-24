@@ -1,8 +1,8 @@
-function TestElem({ displayText }) {
+function TestElem({ imageTitle, imageSource }) {
   return (
     <div>
-      <p>{displayText}</p>
-      <a href="http://google.com">Google</a>
+      <p>{imageTitle}</p>
+      <img src={imageSource} alt="" />
     </div>
   );
 }

@@ -9,7 +9,9 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <TestElem displayText="random" />
+    <TestElem imageTitle="200px" imageSource="https://picsum.photos/200" />
+    <TestElem imageTitle="300px" imageSource="https://picsum.photos/300" />
+    <TestElem imageTitle="400px" imageSource="https://picsum.photos/400" />
   </React.StrictMode>,
   document.getElementById('root')
 );
