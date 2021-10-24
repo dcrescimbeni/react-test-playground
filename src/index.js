@@ -7,6 +7,11 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <style>
+      @import
+      url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+    </style>
+
     <TodoList />
   </React.StrictMode>,
   document.getElementById('root')
