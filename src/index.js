@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import TestElem from './TestElem';
+import Quotes from './Quotes';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <TestElem imageTitle="200px" imageSource="https://picsum.photos/200" />
-    <TestElem imageTitle="300px" imageSource="https://picsum.photos/300" />
-    <TestElem imageTitle="400px" imageSource="https://picsum.photos/400" />
+    <Quotes />
   </React.StrictMode>,
   document.getElementById('root')
 );
